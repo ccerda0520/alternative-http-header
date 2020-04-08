@@ -1,0 +1,21 @@
+{
+  "name": "ccerda0520/alternative-http-header",
+  "description": "A Magento 2 module that uses a custom http remote address header used by Cloudflare or other CDN/proxies.",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "version": "0.1.0",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "CCerda\\AlternativeHttpHeader\\": ""
+    }
+  }
+}
